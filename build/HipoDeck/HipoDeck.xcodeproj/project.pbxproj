@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECE495D215136DF40065CDFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE495D115136DF40065CDFC /* UIKit.framework */; };
+		ECE495D415136DF40065CDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE495D315136DF40065CDFC /* Foundation.framework */; };
+		ECE495D615136DF40065CDFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE495D515136DF40065CDFC /* CoreGraphics.framework */; };
+		ECE4961615136E5B0065CDFC /* HPDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE495F115136E5B0065CDFC /* HPDAppDelegate.m */; };
+		ECE4961715136E5B0065CDFC /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495F615136E5B0065CDFC /* 001.png */; };
+		ECE4961815136E5B0065CDFC /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495F715136E5B0065CDFC /* 002.png */; };
+		ECE4961915136E5B0065CDFC /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495F815136E5B0065CDFC /* 003.png */; };
+		ECE4961A15136E5B0065CDFC /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495F915136E5B0065CDFC /* 004.png */; };
+		ECE4961B15136E5B0065CDFC /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495FA15136E5B0065CDFC /* 005.png */; };
+		ECE4961C15136E5B0065CDFC /* 006.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495FB15136E5B0065CDFC /* 006.png */; };
+		ECE4961D15136E5B0065CDFC /* 007.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495FC15136E5B0065CDFC /* 007.png */; };
+		ECE4961E15136E5B0065CDFC /* 008.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495FD15136E5B0065CDFC /* 008.png */; };
+		ECE4961F15136E5B0065CDFC /* 009.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495FE15136E5B0065CDFC /* 009.png */; };
+		ECE4962015136E5B0065CDFC /* 010.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE495FF15136E5B0065CDFC /* 010.png */; };
+		ECE4962115136E5B0065CDFC /* 011.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960015136E5B0065CDFC /* 011.png */; };
+		ECE4962215136E5B0065CDFC /* 012.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960115136E5B0065CDFC /* 012.png */; };
+		ECE4962315136E5B0065CDFC /* 013.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960215136E5B0065CDFC /* 013.png */; };
+		ECE4962415136E5B0065CDFC /* 014.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960315136E5B0065CDFC /* 014.png */; };
+		ECE4962515136E5B0065CDFC /* 015.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960415136E5B0065CDFC /* 015.png */; };
+		ECE4962615136E5B0065CDFC /* 016.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960515136E5B0065CDFC /* 016.png */; };
+		ECE4962715136E5B0065CDFC /* 017.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960615136E5B0065CDFC /* 017.png */; };
+		ECE4962815136E5B0065CDFC /* 018.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960715136E5B0065CDFC /* 018.png */; };
+		ECE4962915136E5B0065CDFC /* 019.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960815136E5B0065CDFC /* 019.png */; };
+		ECE4962A15136E5B0065CDFC /* 020.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960915136E5B0065CDFC /* 020.png */; };
+		ECE4962B15136E5B0065CDFC /* 021.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960A15136E5B0065CDFC /* 021.png */; };
+		ECE4962C15136E5B0065CDFC /* 022.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960B15136E5B0065CDFC /* 022.png */; };
+		ECE4962D15136E5B0065CDFC /* 023.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960C15136E5B0065CDFC /* 023.png */; };
+		ECE4962E15136E5B0065CDFC /* 024.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960D15136E5B0065CDFC /* 024.png */; };
+		ECE4962F15136E5B0065CDFC /* 025.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960E15136E5B0065CDFC /* 025.png */; };
+		ECE4963015136E5B0065CDFC /* 026.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE4960F15136E5B0065CDFC /* 026.png */; };
+		ECE4963115136E5B0065CDFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECE4961115136E5B0065CDFC /* InfoPlist.strings */; };
+		ECE4963315136E5B0065CDFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4961515136E5B0065CDFC /* main.m */; };
+		ECE49635151372780065CDFC /* HPUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE49634151372780065CDFC /* HPUtils.framework */; };
+		ECE4963B151372E00065CDFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE4963A151372E00065CDFC /* CoreLocation.framework */; };
+		ECE4963D151372E40065CDFC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE4963C151372E40065CDFC /* Security.framework */; };
+		ECE4963F151372EB0065CDFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE4963E151372EB0065CDFC /* SystemConfiguration.framework */; };
+		ECE496411513730B0065CDFC /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE496401513730B0065CDFC /* CrashReporter.framework */; };
+		ECE496441513733F0065CDFC /* HPDGalleryViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE496431513733F0065CDFC /* HPDGalleryViewControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECE495CD15136DF40065CDFC /* HipoDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HipoDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE495D115136DF40065CDFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECE495D315136DF40065CDFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECE495D515136DF40065CDFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECE495F015136E5B0065CDFC /* HPDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPDAppDelegate.h; sourceTree = "<group>"; };
+		ECE495F115136E5B0065CDFC /* HPDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPDAppDelegate.m; sourceTree = "<group>"; };
+		ECE495F615136E5B0065CDFC /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+		ECE495F715136E5B0065CDFC /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
+		ECE495F815136E5B0065CDFC /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
+		ECE495F915136E5B0065CDFC /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
+		ECE495FA15136E5B0065CDFC /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
+		ECE495FB15136E5B0065CDFC /* 006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 006.png; sourceTree = "<group>"; };
+		ECE495FC15136E5B0065CDFC /* 007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 007.png; sourceTree = "<group>"; };
+		ECE495FD15136E5B0065CDFC /* 008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 008.png; sourceTree = "<group>"; };
+		ECE495FE15136E5B0065CDFC /* 009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 009.png; sourceTree = "<group>"; };
+		ECE495FF15136E5B0065CDFC /* 010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 010.png; sourceTree = "<group>"; };
+		ECE4960015136E5B0065CDFC /* 011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 011.png; sourceTree = "<group>"; };
+		ECE4960115136E5B0065CDFC /* 012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 012.png; sourceTree = "<group>"; };
+		ECE4960215136E5B0065CDFC /* 013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 013.png; sourceTree = "<group>"; };
+		ECE4960315136E5B0065CDFC /* 014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 014.png; sourceTree = "<group>"; };
+		ECE4960415136E5B0065CDFC /* 015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 015.png; sourceTree = "<group>"; };
+		ECE4960515136E5B0065CDFC /* 016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 016.png; sourceTree = "<group>"; };
+		ECE4960615136E5B0065CDFC /* 017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 017.png; sourceTree = "<group>"; };
+		ECE4960715136E5B0065CDFC /* 018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 018.png; sourceTree = "<group>"; };
+		ECE4960815136E5B0065CDFC /* 019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 019.png; sourceTree = "<group>"; };
+		ECE4960915136E5B0065CDFC /* 020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 020.png; sourceTree = "<group>"; };
+		ECE4960A15136E5B0065CDFC /* 021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 021.png; sourceTree = "<group>"; };
+		ECE4960B15136E5B0065CDFC /* 022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 022.png; sourceTree = "<group>"; };
+		ECE4960C15136E5B0065CDFC /* 023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 023.png; sourceTree = "<group>"; };
+		ECE4960D15136E5B0065CDFC /* 024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 024.png; sourceTree = "<group>"; };
+		ECE4960E15136E5B0065CDFC /* 025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 025.png; sourceTree = "<group>"; };
+		ECE4960F15136E5B0065CDFC /* 026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 026.png; sourceTree = "<group>"; };
+		ECE4961215136E5B0065CDFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECE4961315136E5B0065CDFC /* HipoDeck-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HipoDeck-Info.plist"; sourceTree = "<group>"; };
+		ECE4961415136E5B0065CDFC /* HipoDeck-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HipoDeck-Prefix.pch"; sourceTree = "<group>"; };
+		ECE4961515136E5B0065CDFC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE49634151372780065CDFC /* HPUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HPUtils.framework; sourceTree = "<group>"; };
+		ECE4963A151372E00065CDFC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ECE4963C151372E40065CDFC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ECE4963E151372EB0065CDFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ECE496401513730B0065CDFC /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		ECE496421513733F0065CDFC /* HPDGalleryViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPDGalleryViewControllerViewController.h; sourceTree = "<group>"; };
+		ECE496431513733F0065CDFC /* HPDGalleryViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPDGalleryViewControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE495CA15136DF40065CDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE4963F151372EB0065CDFC /* SystemConfiguration.framework in Frameworks */,
+				ECE4963D151372E40065CDFC /* Security.framework in Frameworks */,
+				ECE4963B151372E00065CDFC /* CoreLocation.framework in Frameworks */,
+				ECE495D215136DF40065CDFC /* UIKit.framework in Frameworks */,
+				ECE495D415136DF40065CDFC /* Foundation.framework in Frameworks */,
+				ECE495D615136DF40065CDFC /* CoreGraphics.framework in Frameworks */,
+				ECE49635151372780065CDFC /* HPUtils.framework in Frameworks */,
+				ECE496411513730B0065CDFC /* CrashReporter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECE495C215136DF40065CDFC = {
+			isa = PBXGroup;
+			children = (
+				ECE495ED15136E5B0065CDFC /* Classes */,
+				ECE495F315136E5B0065CDFC /* Dependencies */,
+				ECE495F415136E5B0065CDFC /* Resources */,
+				ECE4961015136E5B0065CDFC /* Support */,
+				ECE495D015136DF40065CDFC /* Frameworks */,
+				ECE495CE15136DF40065CDFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE495CE15136DF40065CDFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE495CD15136DF40065CDFC /* HipoDeck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE495D015136DF40065CDFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4963E151372EB0065CDFC /* SystemConfiguration.framework */,
+				ECE4963C151372E40065CDFC /* Security.framework */,
+				ECE4963A151372E00065CDFC /* CoreLocation.framework */,
+				ECE495D115136DF40065CDFC /* UIKit.framework */,
+				ECE495D315136DF40065CDFC /* Foundation.framework */,
+				ECE495D515136DF40065CDFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE495ED15136E5B0065CDFC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECE495EE15136E5B0065CDFC /* Controllers */,
+				ECE495EF15136E5B0065CDFC /* Delegates */,
+				ECE495F215136E5B0065CDFC /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECE495EE15136E5B0065CDFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECE496421513733F0065CDFC /* HPDGalleryViewControllerViewController.h */,
+				ECE496431513733F0065CDFC /* HPDGalleryViewControllerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECE495EF15136E5B0065CDFC /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				ECE495F015136E5B0065CDFC /* HPDAppDelegate.h */,
+				ECE495F115136E5B0065CDFC /* HPDAppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		ECE495F215136E5B0065CDFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECE495F315136E5B0065CDFC /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				ECE496401513730B0065CDFC /* CrashReporter.framework */,
+				ECE49634151372780065CDFC /* HPUtils.framework */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		ECE495F415136E5B0065CDFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECE495F515136E5B0065CDFC /* Pages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECE495F515136E5B0065CDFC /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				ECE495F615136E5B0065CDFC /* 001.png */,
+				ECE495F715136E5B0065CDFC /* 002.png */,
+				ECE495F815136E5B0065CDFC /* 003.png */,
+				ECE495F915136E5B0065CDFC /* 004.png */,
+				ECE495FA15136E5B0065CDFC /* 005.png */,
+				ECE495FB15136E5B0065CDFC /* 006.png */,
+				ECE495FC15136E5B0065CDFC /* 007.png */,
+				ECE495FD15136E5B0065CDFC /* 008.png */,
+				ECE495FE15136E5B0065CDFC /* 009.png */,
+				ECE495FF15136E5B0065CDFC /* 010.png */,
+				ECE4960015136E5B0065CDFC /* 011.png */,
+				ECE4960115136E5B0065CDFC /* 012.png */,
+				ECE4960215136E5B0065CDFC /* 013.png */,
+				ECE4960315136E5B0065CDFC /* 014.png */,
+				ECE4960415136E5B0065CDFC /* 015.png */,
+				ECE4960515136E5B0065CDFC /* 016.png */,
+				ECE4960615136E5B0065CDFC /* 017.png */,
+				ECE4960715136E5B0065CDFC /* 018.png */,
+				ECE4960815136E5B0065CDFC /* 019.png */,
+				ECE4960915136E5B0065CDFC /* 020.png */,
+				ECE4960A15136E5B0065CDFC /* 021.png */,
+				ECE4960B15136E5B0065CDFC /* 022.png */,
+				ECE4960C15136E5B0065CDFC /* 023.png */,
+				ECE4960D15136E5B0065CDFC /* 024.png */,
+				ECE4960E15136E5B0065CDFC /* 025.png */,
+				ECE4960F15136E5B0065CDFC /* 026.png */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		ECE4961015136E5B0065CDFC /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4961115136E5B0065CDFC /* InfoPlist.strings */,
+				ECE4961315136E5B0065CDFC /* HipoDeck-Info.plist */,
+				ECE4961415136E5B0065CDFC /* HipoDeck-Prefix.pch */,
+				ECE4961515136E5B0065CDFC /* main.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE495CC15136DF40065CDFC /* HipoDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE495E515136DF40065CDFC /* Build configuration list for PBXNativeTarget "HipoDeck" */;
+			buildPhases = (
+				ECE495C915136DF40065CDFC /* Sources */,
+				ECE495CA15136DF40065CDFC /* Frameworks */,
+				ECE495CB15136DF40065CDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HipoDeck;
+			productName = HipoDeck;
+			productReference = ECE495CD15136DF40065CDFC /* HipoDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE495C415136DF40065CDFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HPD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Hipo;
+			};
+			buildConfigurationList = ECE495C715136DF40065CDFC /* Build configuration list for PBXProject "HipoDeck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECE495C215136DF40065CDFC;
+			productRefGroup = ECE495CE15136DF40065CDFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE495CC15136DF40065CDFC /* HipoDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE495CB15136DF40065CDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE4961715136E5B0065CDFC /* 001.png in Resources */,
+				ECE4961815136E5B0065CDFC /* 002.png in Resources */,
+				ECE4961915136E5B0065CDFC /* 003.png in Resources */,
+				ECE4961A15136E5B0065CDFC /* 004.png in Resources */,
+				ECE4961B15136E5B0065CDFC /* 005.png in Resources */,
+				ECE4961C15136E5B0065CDFC /* 006.png in Resources */,
+				ECE4961D15136E5B0065CDFC /* 007.png in Resources */,
+				ECE4961E15136E5B0065CDFC /* 008.png in Resources */,
+				ECE4961F15136E5B0065CDFC /* 009.png in Resources */,
+				ECE4962015136E5B0065CDFC /* 010.png in Resources */,
+				ECE4962115136E5B0065CDFC /* 011.png in Resources */,
+				ECE4962215136E5B0065CDFC /* 012.png in Resources */,
+				ECE4962315136E5B0065CDFC /* 013.png in Resources */,
+				ECE4962415136E5B0065CDFC /* 014.png in Resources */,
+				ECE4962515136E5B0065CDFC /* 015.png in Resources */,
+				ECE4962615136E5B0065CDFC /* 016.png in Resources */,
+				ECE4962715136E5B0065CDFC /* 017.png in Resources */,
+				ECE4962815136E5B0065CDFC /* 018.png in Resources */,
+				ECE4962915136E5B0065CDFC /* 019.png in Resources */,
+				ECE4962A15136E5B0065CDFC /* 020.png in Resources */,
+				ECE4962B15136E5B0065CDFC /* 021.png in Resources */,
+				ECE4962C15136E5B0065CDFC /* 022.png in Resources */,
+				ECE4962D15136E5B0065CDFC /* 023.png in Resources */,
+				ECE4962E15136E5B0065CDFC /* 024.png in Resources */,
+				ECE4962F15136E5B0065CDFC /* 025.png in Resources */,
+				ECE4963015136E5B0065CDFC /* 026.png in Resources */,
+				ECE4963115136E5B0065CDFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE495C915136DF40065CDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE4961615136E5B0065CDFC /* HPDAppDelegate.m in Sources */,
+				ECE4963315136E5B0065CDFC /* main.m in Sources */,
+				ECE496441513733F0065CDFC /* HPDGalleryViewControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECE4961115136E5B0065CDFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE4961215136E5B0065CDFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE495E315136DF40065CDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ECE495E415136DF40065CDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE495E615136DF40065CDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Support/HipoDeck-Prefix.pch";
+				INFOPLIST_FILE = "Support/HipoDeck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECE495E715136DF40065CDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Support/HipoDeck-Prefix.pch";
+				INFOPLIST_FILE = "Support/HipoDeck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE495C715136DF40065CDFC /* Build configuration list for PBXProject "HipoDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE495E315136DF40065CDFC /* Debug */,
+				ECE495E415136DF40065CDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE495E515136DF40065CDFC /* Build configuration list for PBXNativeTarget "HipoDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE495E615136DF40065CDFC /* Debug */,
+				ECE495E715136DF40065CDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE495C415136DF40065CDFC /* Project object */;
+}
