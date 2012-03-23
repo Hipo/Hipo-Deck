@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0752A81517187E00124CEA /* 027.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0752A51517187E00124CEA /* 027.png */; };
+		EC0752A91517187E00124CEA /* 028.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0752A61517187E00124CEA /* 028.png */; };
+		EC0752AA1517187E00124CEA /* 029.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0752A71517187E00124CEA /* 029.png */; };
+		EC0752B115171A8700124CEA /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0752AD15171A8700124CEA /* Icon-72.png */; };
+		EC0752B215171A8700124CEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0752AE15171A8700124CEA /* Icon.png */; };
+		EC0752B315171A8700124CEA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0752AF15171A8700124CEA /* Icon@2x.png */; };
+		EC0752B415171A8700124CEA /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = EC0752B015171A8700124CEA /* iTunesArtwork */; };
 		ECE495D215136DF40065CDFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE495D115136DF40065CDFC /* UIKit.framework */; };
 		ECE495D415136DF40065CDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE495D315136DF40065CDFC /* Foundation.framework */; };
 		ECE495D615136DF40065CDFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE495D515136DF40065CDFC /* CoreGraphics.framework */; };
@@ -48,6 +55,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC0752A51517187E00124CEA /* 027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 027.png; sourceTree = "<group>"; };
+		EC0752A61517187E00124CEA /* 028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 028.png; sourceTree = "<group>"; };
+		EC0752A71517187E00124CEA /* 029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 029.png; sourceTree = "<group>"; };
+		EC0752AD15171A8700124CEA /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		EC0752AE15171A8700124CEA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EC0752AF15171A8700124CEA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		EC0752B015171A8700124CEA /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		ECE495CD15136DF40065CDFC /* HipoDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HipoDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE495D115136DF40065CDFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECE495D315136DF40065CDFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -112,6 +126,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC0752AC15171A8700124CEA /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EC0752AD15171A8700124CEA /* Icon-72.png */,
+				EC0752AE15171A8700124CEA /* Icon.png */,
+				EC0752AF15171A8700124CEA /* Icon@2x.png */,
+				EC0752B015171A8700124CEA /* iTunesArtwork */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		ECE495C215136DF40065CDFC = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +217,7 @@
 		ECE495F415136E5B0065CDFC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EC0752AC15171A8700124CEA /* Icons */,
 				ECE495F515136E5B0065CDFC /* Pages */,
 			);
 			path = Resources;
@@ -200,6 +226,9 @@
 		ECE495F515136E5B0065CDFC /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				EC0752A51517187E00124CEA /* 027.png */,
+				EC0752A61517187E00124CEA /* 028.png */,
+				EC0752A71517187E00124CEA /* 029.png */,
 				ECE495F615136E5B0065CDFC /* 001.png */,
 				ECE495F715136E5B0065CDFC /* 002.png */,
 				ECE495F815136E5B0065CDFC /* 003.png */,
@@ -320,6 +349,13 @@
 				ECE4962F15136E5B0065CDFC /* 025.png in Resources */,
 				ECE4963015136E5B0065CDFC /* 026.png in Resources */,
 				ECE4963115136E5B0065CDFC /* InfoPlist.strings in Resources */,
+				EC0752A81517187E00124CEA /* 027.png in Resources */,
+				EC0752A91517187E00124CEA /* 028.png in Resources */,
+				EC0752AA1517187E00124CEA /* 029.png in Resources */,
+				EC0752B115171A8700124CEA /* Icon-72.png in Resources */,
+				EC0752B215171A8700124CEA /* Icon.png in Resources */,
+				EC0752B315171A8700124CEA /* Icon@2x.png in Resources */,
+				EC0752B415171A8700124CEA /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +391,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Taylan Pince (3NP8F5275C)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -374,6 +410,7 @@
 					"-ObjC",
 					"-all_load",
 				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4A152119-032C-4A78-9C05-8E76042EFB2A";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -384,7 +421,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hippo Foundry Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -397,6 +434,7 @@
 					"-ObjC",
 					"-all_load",
 				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "565E24A4-2CB9-478B-BFC6-E823C756F82E";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
