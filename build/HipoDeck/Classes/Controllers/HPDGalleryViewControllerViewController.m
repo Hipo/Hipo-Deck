@@ -87,7 +87,7 @@
     NSString *fileName = [NSString stringWithFormat:@"%@.png", 
                           [_numberFormatter stringFromNumber:
                            [NSNumber numberWithInteger:(pageIndex + 1)]]];
-    NSLog(@"LOAD: %@", fileName);
+
     [imageView setImage:[UIImage imageNamed:fileName]];
     
     return imageView;

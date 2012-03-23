@@ -14,7 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    _galleryController = [[HPDGalleryViewControllerViewController alloc] initWithTotalNumberOfImages:29];
+    _galleryController = [[HPDGalleryViewControllerViewController alloc] initWithTotalNumberOfImages:34];
 
     [_window addSubview:_galleryController.view];
     [_window setBackgroundColor:[UIColor whiteColor]];
